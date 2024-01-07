@@ -1,4 +1,7 @@
+* {
+    cursor: none !important;
+}
+
 body {
     background-color: black;
-    cursor: none;
 }

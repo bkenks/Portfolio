@@ -50,9 +50,11 @@
   box-shadow: 0px 0px 4px #131313, 0px 0px 4px #141414;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
   &:hover {
-    box-shadow: 4px 4px 10px #131313, -4px -4px 10px #141414;
+    box-shadow: 7px 7px 10px #131313, -7px -7px 10px #141414;
+    transform: scale(1.01) translateY(-0.5px);
     @include respond(phone) {
       box-shadow: none;
+      transform: none;
     }
   }
   &::after {

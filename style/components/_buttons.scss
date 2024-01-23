@@ -52,10 +52,6 @@
   &:hover {
     box-shadow: 7px 7px 10px #131313, -7px -7px 10px #141414;
     transform: scale(1.01) translateY(-0.5px);
-    @include respond(phone) {
-      box-shadow: none;
-      transform: none;
-    }
   }
   &::after {
     content: "";
@@ -72,11 +68,6 @@
     top: 0;
     z-index: -1;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
-    @include respond(phone) {
-      width: 0;
-      height: 0;
-      background-image: none;
-    }
   }
 }
 
